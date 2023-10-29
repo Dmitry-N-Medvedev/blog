@@ -1,7 +1,7 @@
 :root {
   --main-font-family: "Inter var experimental";
   --main-color: var(--theme-dark_gray);
-  --main-background-color: var(--theme-white);
+  --main-background-color: var(--theme-darkest_white);
   --main-grid-gap: max(0.25vh, 0.25vw);
   --main-border-radius: max(0.25vh, 0.25vw);
 
@@ -43,14 +43,13 @@
 }
 
 html, body {
-  background-color: brown;
   height: 100%;
   min-height: 100%;
 }
 
 html {
   font-family: var(--main-font-family);
-  background-color: var(--main-background-color);
+  background-color: var(--theme-darkest_white);
   color: var(--main-color);
 }
 
@@ -65,12 +64,9 @@ html {
   ;
   grid-template-rows: 5rem 1fr 5rem;
 
-  width: 75%;
   margin: 0 10%;
 
   min-height: 100%;
-
-  background-color: var(--theme-white);
 }
 
 main {
